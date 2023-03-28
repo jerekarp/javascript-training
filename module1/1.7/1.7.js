@@ -1,3 +1,4 @@
+'use strict';
 const amount = parseInt(prompt('Enter a number of dice rolls: '));
 let sum = 0;
 
