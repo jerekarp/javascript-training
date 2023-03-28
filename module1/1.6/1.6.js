@@ -1,3 +1,4 @@
+'use strict';
 const answer = confirm('Should I calculate the square root');
 let target = document.querySelector('#target');
 

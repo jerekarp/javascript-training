@@ -1,3 +1,4 @@
+'use strict';
 const start_year = +prompt('Start year is: ');
 const end_year = parseInt(prompt('End year is: '));
 

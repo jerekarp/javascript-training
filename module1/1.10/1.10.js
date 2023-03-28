@@ -1,3 +1,4 @@
+'use strict';
 const amountDices = parseInt(prompt('Enter a number of dice rolls: '));
 const sumEyes = parseInt(prompt('Sum of the eye numbers: '));
 const loops = 10000;
