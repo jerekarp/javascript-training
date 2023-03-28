@@ -2,7 +2,7 @@
 const amountCandidates = parseInt(prompt('Enter a number of candidates: '));
 let candidates = [];
 for (let i = 0; i < amountCandidates; i++) {
-  let candidateName = prompt(`Please, enter a name for candidate ${i}: `);
+  let candidateName = prompt(`Please, enter a name for candidate ${i+1}: `);
   const candidate = {
     name: candidateName,
     votes: 0,
@@ -13,7 +13,7 @@ for (let i = 0; i < amountCandidates; i++) {
 const amountVoters = parseInt(prompt('Enter a number of voters: '));
 for (let i = 0; i < amountVoters; i++) {
   const vote = prompt(
-      `Voter ${i}: Who do you want to vote for? Enter candidate name.`);
+      `Voter ${i+1}: Who do you want to vote for? Enter candidate name.`);
   const candi = candidates.find(c => c.name === vote);
   if (candi) {   //if candidate name is found, adds one vote
     candi.votes++;

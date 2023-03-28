@@ -3,7 +3,7 @@ let numbers = [];
 let ok = false;
 
 while (!ok) {
-  num = parseInt(prompt('Enter a number: '));
+  let num = parseInt(prompt('Enter a number: '));
   if (numbers.includes(num)) {
     alert('Number has already been given!');
     ok = true;
