@@ -7,7 +7,7 @@ if (answer === true) {
   if (number < 0) {
     target.innerHTML = 'The square root of a negative number is not defined';
   } else {
-    square_root = Math.sqrt(number);
+    const square_root = Math.sqrt(number);
     target.innerHTML = 'Numbers ' + number + ' square root is: ' + square_root;
   }
 } else if (answer === false) {
